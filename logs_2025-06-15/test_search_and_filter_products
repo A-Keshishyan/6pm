@@ -1,7 +1,0 @@
-2025-06-15 23:37:09,817 - INFO - test_search_and_filter_products is started
-2025-06-15 23:37:20,664 - INFO - https://www.6pm.com/ is opened.
-2025-06-15 23:37:23,026 - INFO - Search result page loaded successfully.
-2025-06-15 23:37:43,965 - INFO - Filtered result count: 1 items found
-2025-06-15 23:37:44,562 - INFO - Verified brand: RAEN Optics
-2025-06-15 23:37:44,562 - INFO - Verified price: $129.46 within limit $$200.00
-2025-06-15 23:37:44,564 - INFO - test_search_and_filter_products is finished

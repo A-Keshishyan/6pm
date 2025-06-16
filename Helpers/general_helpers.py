@@ -16,6 +16,17 @@ class Helper():
     # def find_and_click(self, loc, sec=60):
     #     WebDriverWait(self.driver, sec).until(EC.element_to_be_clickable(loc)).click()
 
+    def find_elem_ui(self, loc, sec=60):
+        try:
+            elem = WebDriverWait(self.driver, sec).until(
+                EC.visibility_of_element_located(loc))
+            return elem
+        except Exception as e:
+            self.test_logger.error("Element is not vissible.")
+            self.test_logger.exception(e)
+            return None
+
+
     def find_and_click(self, loc, sec=60):
         try:
             WebDriverWait(self.driver, sec).until(EC.presence_of_element_located(loc))
