@@ -8,7 +8,10 @@ from datetime import datetime
 
 @pytest.fixture()
 def test_driver():
-    driver = webdriver.Chrome()
+    options = webdriver.ChromeOptions()
+    options.add_argument('--headless')
+    driver = webdriver.Chrome(options=options)
+    # driver = webdriver.Chrome()
     driver.maximize_window()
     yield driver
     driver.quit()
