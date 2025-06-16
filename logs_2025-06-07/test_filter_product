@@ -1,0 +1,28 @@
+2025-06-07 14:43:11,433 - INFO - test_filter_product is started
+2025-06-07 14:44:07,219 - INFO - https://www.6pm.com/ is opened.
+2025-06-07 14:45:12,305 - ERROR - Element is not vissible.
+2025-06-07 14:45:12,306 - ERROR - Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7fc1efea5+79173]
+	GetHandleVerifier [0x0x7ff7fc1eff00+79264]
+	(No symbol) [0x0x7ff7fbfa9e5a]
+	(No symbol) [0x0x7ff7fc000586]
+	(No symbol) [0x0x7ff7fc00083c]
+	(No symbol) [0x0x7ff7fc054247]
+	(No symbol) [0x0x7ff7fc0289af]
+	(No symbol) [0x0x7ff7fc05100d]
+	(No symbol) [0x0x7ff7fc028743]
+	(No symbol) [0x0x7ff7fbff14c1]
+	(No symbol) [0x0x7ff7fbff2253]
+	GetHandleVerifier [0x0x7ff7fc4ba2dd+3004797]
+	GetHandleVerifier [0x0x7ff7fc4b472d+2981325]
+	GetHandleVerifier [0x0x7ff7fc4d3380+3107360]
+	GetHandleVerifier [0x0x7ff7fc20aa2e+188622]
+	GetHandleVerifier [0x0x7ff7fc2122bf+219487]
+	GetHandleVerifier [0x0x7ff7fc1f8df4+115860]
+	GetHandleVerifier [0x0x7ff7fc1f8fa9+116297]
+	GetHandleVerifier [0x0x7ff7fc1df558+11256]
+	BaseThreadInitThunk [0x0x7fff0954259d+29]
+	RtlUserThreadStart [0x0x7fff09b6af38+40]
+
+2025-06-07 14:45:12,682 - INFO - test_filter_product is finished

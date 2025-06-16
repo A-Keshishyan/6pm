@@ -1,0 +1,7 @@
+[32mINFO    [0m test_search_and_filter_products:conftest.py:29 test_search_and_filter_products is started
+[32mINFO    [0m test_search_and_filter_products:general_helpers.py:14 https://www.6pm.com/ is opened.
+[32mINFO    [0m test_search_and_filter_products:main_test.py:19 Search result page loaded successfully.
+[32mINFO    [0m test_search_and_filter_products:main_test.py:29 Filtered result count: 1 items found
+[32mINFO    [0m test_search_and_filter_products:main_test.py:43 Verified brand: RAEN Optics
+[32mINFO    [0m test_search_and_filter_products:main_test.py:44 Verified price: $129.46 within limit $$200.00
+[32mINFO    [0m test_search_and_filter_products:conftest.py:31 test_search_and_filter_products is finished
